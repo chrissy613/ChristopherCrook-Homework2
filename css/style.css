@@ -11,9 +11,11 @@ body {
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #4a8059;
+    background: linear-gradient(170deg, #005b03 0%, #3db412);
     color: #ffffff;
     text-align: center;
+    border-radius: 15px;
+    
 }
 
 .header h1 {
@@ -29,9 +31,10 @@ nav {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
-    background-color: #4a8059;
+    background: linear-gradient(170deg, #005b03 0%, #3db412);
     display: inline-block;
     color: #ffffff;
+    border-radius: 15px;
 }
 
 a {
@@ -46,13 +49,13 @@ p {
 .aboutme {
     width: 90%;
     margin-left:20px;
-    margin-top: 20px;
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 25px;
     height: 40%;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    background-color: #4a8059;
+    background: linear-gradient(170deg, #005b03 0%, #3db412);
     color: #ffffff;
+    border-radius: 15px;
 }
 
 .aboutme img {
@@ -61,8 +64,13 @@ p {
 }
 
 .aboutme h2 {
-    margin-bottom: 20px;
+    text-align: center;
     font-size: 36px;
+}
+
+.aboutme p {
+    margin-top: 10px;
+    text-indent: 10px
 }
 
 .footer {
