@@ -38,6 +38,10 @@ nav {
     border-radius: 15px;
 }
 
+#navbar{
+    text-align: center;
+}
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -71,8 +75,15 @@ p {
 
 .aboutme p {
     margin-top: 10px;
-    text-indent: 10px
+    text-indent: 10px;
 }
+
+#info {
+    font-size: 20px;
+    padding-left: 200px;
+}
+
+
 
 .footer {
     padding: 30px;
