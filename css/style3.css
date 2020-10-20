@@ -64,6 +64,12 @@ p {
     font-size: 36px;
 }
 
+.contactMe h6 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
 .contactMe label {
     font-size: 22px;
 }
